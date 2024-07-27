@@ -5235,9 +5235,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Fox Action
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 5ee51228a94b5cf499d63022e0393d8c, type: 2}
-  m_sharedMaterial: {fileID: -6123794388480881117, guid: 5ee51228a94b5cf499d63022e0393d8c,
-    type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -10260,9 +10259,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: NowLoading
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 5ee51228a94b5cf499d63022e0393d8c, type: 2}
-  m_sharedMaterial: {fileID: -6123794388480881117, guid: 5ee51228a94b5cf499d63022e0393d8c,
-    type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -10557,7 +10555,7 @@ Canvas:
   m_AdditionalShaderChannelsFlag: 25
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_TargetDisplay: 0
 --- !u!224 &715726121
 RectTransform:
@@ -11309,6 +11307,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: db98f6262511c26479e648cbd9f00710, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Title: {fileID: 715726120}
 --- !u!1 &1260219144
 GameObject:
   m_ObjectHideFlags: 0
@@ -11837,11 +11836,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Click to Start
+  m_text: Click to Spece
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 5ee51228a94b5cf499d63022e0393d8c, type: 2}
-  m_sharedMaterial: {fileID: -6123794388480881117, guid: 5ee51228a94b5cf499d63022e0393d8c,
-    type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -12070,6 +12068,7 @@ GameObject:
   - component: {fileID: 1895699384}
   - component: {fileID: 1895699385}
   - component: {fileID: 1895699386}
+  - component: {fileID: 1895699387}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -12380,6 +12379,20 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &1895699387
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1895699379}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c452692786ebd7c4a8aaf0e5bcc75c6a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TitleUi: {fileID: 0}
+  SelectUi: {fileID: 0}
 --- !u!1 &2077069287
 GameObject:
   m_ObjectHideFlags: 0
@@ -12435,8 +12448,8 @@ SceneRoots:
   - {fileID: 1751388054}
   - {fileID: 649265262}
   - {fileID: 585859922}
-  - {fileID: 1012416808}
   - {fileID: 715726121}
+  - {fileID: 1012416808}
   - {fileID: 1823250145}
   - {fileID: 2077069289}
   - {fileID: 1895699383}

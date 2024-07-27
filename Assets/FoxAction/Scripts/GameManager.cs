@@ -30,7 +30,7 @@ public class GameManager : MonoBehaviour
     {
         if(gameState!=GameState.Title)
         {
-            TitleUi.SetActive(false);
+            //TitleUi.SetActive(false);
         }
     }
     public static void ChangeState(GameState state)

@@ -19,7 +19,7 @@ public class Field : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(GameManager.gameState!=GameManager.GameState.Play&&CameraController.Title==true)
+        if(GameManager.gameState!=GameManager.GameState.Play)
         {
             Quaternion rot = Quaternion.AngleAxis(Theta, axis);
             _transform.rotation =  transform.rotation*rot ;
